@@ -1,0 +1,21 @@
+{
+  "name": "youtube-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/node": "^20.12.12",
+    "canvas": "^2.11.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
