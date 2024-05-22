@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node src/index.ts"
+    "start": "npx ts-node src/index.ts",
+    "repo-to-video": "npx ts-node src/repo.ts",
+    "repo-to-img": "npx ts-node src/repoToImg.ts",
+    "img-to-vid": "npx ts-node src/imgToVideo.ts"
   },
   "keywords": [],
   "author": "",
